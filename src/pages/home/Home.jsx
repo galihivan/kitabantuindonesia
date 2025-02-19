@@ -4,6 +4,7 @@ import TrustedBy from "../../components/TrustedBy";
 import Footer from "../../components/footer/Footer";
 import Testimoni from "../../components/testimoni/Testimoni";
 import StepsSection from "../../components/stepsection/StepSection";
+import CategoryCards from "../../components/category/CategoryCard";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
     <main>
       <HeroSection />
       <TrustedBy />
+      <CategoryCards />
       <StepsSection />
       <Testimoni />
       <Footer />
