@@ -4,18 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State untuk toggle menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 10) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
+    setScrolling(window.scrollY > 10);
   };
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen); 
+    setIsMenuOpen(!isMenuOpen);
   };
 
   useEffect(() => {
@@ -40,9 +36,9 @@ const Navbar = () => {
        
         {/* Menu untuk layar besar (desktop) */}
         <div className="hidden md:flex items-center gap-6">
-          <a href="#" className="text-white">Bantu Pro</a>
-          <a href="#" className="text-white">Explore</a>
-          <a href="#" className="text-white">English</a>
+          <Link to="/" className="text-white">Bantu Pro</Link>
+          <Link to="/explore" className="text-white">Explore</Link>
+          <Link to="/language" className="text-white">English</Link>
           <Link to="/login">
             <button className="border px-3 py-1 rounded text-white border-white">Log In</button>
           </Link>
@@ -60,16 +56,15 @@ const Navbar = () => {
         
         {/* Menu dropdown untuk layar kecil */}
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-customBlue py-4 text-center`}>
-          <a href="#" className="block text-white py-2">Bantu Pro</a>
-          <a href="#" className="block text-white py-2">Explore</a>
-          <a href="#" className="block text-white py-2">English</a>
+          <Link to="/" className="block text-white py-2">Bantu Pro</Link>
+          <Link to="/explore" className="block text-white py-2">Explore</Link>
+          <Link to="/language" className="block text-white py-2">English</Link>
           <Link to="/login">
             <button className="block mx-auto border px-3 py-1 rounded text-white border-white mt-2">Log In</button>
           </Link>
           <Link to="/register">
             <button className="block mx-auto bg-white text-customBlue px-3 py-1 rounded mt-2">Join</button>
           </Link>
-          
         </div>
       </nav>
     </header>
