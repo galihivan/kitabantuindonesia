@@ -1,12 +1,24 @@
-import { useState } from "react";
-import { categories } from "../data/categories"; 
+import { useState, useEffect } from "react";
+import { categories } from "../data/categories";
 
 const CategoryCards = () => {
   const [selected, setSelected] = useState(null);
   const [showAll, setShowAll] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768); // Deteksi layar kecil
 
-  // Menampilkan hanya 4 kategori pertama saat dalam mode minimize
-  const visibleCategories = showAll ? categories : categories.slice(0, 4);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // Jika lebar < 768px, anggap sebagai mobile
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  // Jika di desktop, selalu tampilkan semua kategori
+  const visibleCategories = isMobile ? (showAll ? categories : categories.slice(0, 4)) : categories;
 
   return (
     <div className="w-full flex flex-col items-center">
@@ -26,8 +38,8 @@ const CategoryCards = () => {
         </div>
       </div>
 
-      {/* Tombol View More & Minimize */}
-      {categories.length > 4 && (
+      {/* Tombol View More & Minimize hanya muncul di mobile */}
+      {isMobile && categories.length > 4 && (
         <button
           className="mt-4 px-4 py-2 text-white bg-customBlue rounded-lg shadow hover:bg-blue-600 transition"
           onClick={() => setShowAll(!showAll)}

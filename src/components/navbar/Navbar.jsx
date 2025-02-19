@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen); // Toggle state menu
+    setIsMenuOpen(!isMenuOpen); 
   };
 
   useEffect(() => {
@@ -33,7 +33,9 @@ const Navbar = () => {
         } bg-customBlue`}
       >
         <div className="flex justify-between items-center h-[60px] px-4 sm:px-[120px]">
-          <img src={logo} alt="Logo" className="w-32 h-auto" />
+          <Link to="/">
+            <img src={logo} alt="Logo" className="w-32 h-auto" />
+          </Link>
         </div>
        
         {/* Menu untuk layar besar (desktop) */}

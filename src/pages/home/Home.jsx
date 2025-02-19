@@ -16,8 +16,8 @@ function Home() {
       <CategoryCards />
       <StepsSection />
       <Testimoni />
-      <Footer />
     </main>
+    <Footer />
  
     
     </>
