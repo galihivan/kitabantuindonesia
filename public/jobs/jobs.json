@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "company_name": "PT Maju Jaya",
+    "position": "Software Engineer",
+    "location": "Jakarta, Indonesia",
+    "job_description": "Develop and maintain web-based applications.",
+    "contract": "Full-time",
+    "salary": "Rp 10,000,000/month"
+  },
+  {
+    "id": 2,
+    "company_name": "CV Sukses Abadi",
+    "position": "UI/UX Designer",
+    "location": "Bandung, Indonesia",
+    "job_description": "Design application interfaces with a great user experience.",
+    "contract": "Full-time",
+    "salary": "Rp 8,500,000/month"
+  },
+  {
+    "id": 3,
+    "company_name": "Startup Digital",
+    "position": "Product Manager",
+    "location": "Surabaya, Indonesia",
+    "job_description": "Manage product development from planning to execution.",
+    "contract": "Full-time",
+    "salary": "Rp 15,000,000/month"
+  },
+  {
+    "id": 4,
+    "company_name": "PT Kreatif Solusi",
+    "position": "Data Analyst",
+    "location": "Yogyakarta, Indonesia",
+    "job_description": "Analyze data to generate business insights.",
+    "contract": "Contract",
+    "salary": "Rp 7,500,000/month"
+  },
+  {
+    "id": 5,
+    "company_name": "E-Commerce Company",
+    "position": "Digital Marketing Specialist",
+    "location": "Jakarta, Indonesia",
+    "job_description": "Design and implement digital marketing strategies.",
+    "contract": "Full-time",
+    "salary": "Rp 9,000,000/month"
+  },
+  {
+    "id": 6,
+    "company_name": "PT Cahaya Teknologi",
+    "position": "System Administrator",
+    "location": "Semarang, Indonesia",
+    "job_description": "Manage and ensure IT infrastructure runs smoothly.",
+    "contract": "Full-time",
+    "salary": "Rp 11,000,000/month"
+  },
+  {
+    "id": 7,
+    "company_name": "Tech Startup",
+    "position": "Mobile Developer",
+    "location": "Denpasar, Indonesia",
+    "job_description": "Develop mobile applications for Android and iOS.",
+    "contract": "Full-time",
+    "salary": "Rp 12,000,000/month"
+  },
+  {
+    "id": 8,
+    "company_name": "PT Mitra Sejahtera",
+    "position": "HR Manager",
+    "location": "Medan, Indonesia",
+    "job_description": "Manage human resources and company policies.",
+    "contract": "Full-time",
+    "salary": "Rp 14,000,000/month"
+  },
+  {
+    "id": 9,
+    "company_name": "CV Kreatif Muda",
+    "position": "Graphic Designer",
+    "location": "Malang, Indonesia",
+    "job_description": "Create graphic designs for branding and promotional needs.",
+    "contract": "Contract",
+    "salary": "Rp 6,500,000/month"
+  },
+  {
+    "id": 10,
+    "company_name": "PT Solusi Inovatif",
+    "position": "DevOps Engineer",
+    "location": "Bogor, Indonesia",
+    "job_description": "Automate development and deployment processes.",
+    "contract": "Full-time",
+    "salary": "Rp 13,000,000/month"
+  },
+  {
+    "id": 11,
+    "company_name": "PT Digital Nusantara",
+    "position": "Backend Developer",
+    "location": "Jakarta, Indonesia",
+    "job_description": "Develop and optimize backend services and APIs.",
+    "contract": "Full-time",
+    "salary": "Rp 10,500,000/month"
+  },
+  {
+    "id": 12,
+    "company_name": "CV Cipta Karya",
+    "position": "Content Writer",
+    "location": "Bandung, Indonesia",
+    "job_description": "Write creative and engaging content for digital platforms.",
+    "contract": "Contract",
+    "salary": "Rp 5,500,000/month"
+  },
+  {
+    "id": 13,
+    "company_name": "PT Jaya Sentosa",
+    "position": "Business Analyst",
+    "location": "Surabaya, Indonesia",
+    "job_description": "Analyze business processes and recommend improvements.",
+    "contract": "Full-time",
+    "salary": "Rp 13,000,000/month"
+  },
+  {
+    "id": 14,
+    "company_name": "Startup Inovatif",
+    "position": "Machine Learning Engineer",
+    "location": "Yogyakarta, Indonesia",
+    "job_description": "Develop AI models for data-driven applications.",
+    "contract": "Full-time",
+    "salary": "Rp 16,000,000/month"
+  },
+  {
+    "id": 15,
+    "company_name": "E-Commerce Hub",
+    "position": "SEO Specialist",
+    "location": "Jakarta, Indonesia",
+    "job_description": "Optimize websites for search engines and drive traffic.",
+    "contract": "Full-time",
+    "salary": "Rp 8,000,000/month"
+  },
+  {
+    "id": 16,
+    "company_name": "PT Teknologi Terdepan",
+    "position": "Cybersecurity Analyst",
+    "location": "Semarang, Indonesia",
+    "job_description": "Monitor and secure IT systems from cyber threats.",
+    "contract": "Full-time",
+    "salary": "Rp 14,500,000/month"
+  },
+  {
+    "id": 17,
+    "company_name": "Innovative Apps",
+    "position": "Game Developer",
+    "location": "Denpasar, Indonesia",
+    "job_description": "Develop and optimize mobile and desktop games.",
+    "contract": "Full-time",
+    "salary": "Rp 12,500,000/month"
+  },
+  {
+    "id": 18,
+    "company_name": "PT Sukses Bersama",
+    "position": "Marketing Manager",
+    "location": "Medan, Indonesia",
+    "job_description": "Lead marketing campaigns and strategies.",
+    "contract": "Full-time",
+    "salary": "Rp 17,000,000/month"
+  },
+  {
+    "id": 19,
+    "company_name": "CV Desain Kreatif",
+    "position": "Motion Graphic Designer",
+    "location": "Malang, Indonesia",
+    "job_description": "Create motion graphics for advertisements and social media.",
+    "contract": "Contract",
+    "salary": "Rp 7,000,000/month"
+  },
+  {
+    "id": 20,
+    "company_name": "PT Digital Solutions",
+    "position": "Cloud Engineer",
+    "location": "Bogor, Indonesia",
+    "job_description": "Manage and optimize cloud-based infrastructure.",
+    "contract": "Full-time",
+    "salary": "Rp 15,000,000/month"
+  }
+]

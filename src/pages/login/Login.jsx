@@ -77,7 +77,7 @@ const Login = () => {
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-screen-lg p-4">
         {/* Kolom pertama dengan background blue dan teks putih */}
-        <div className="p-20 flex justify-center items-center bg-customBlue text-white sm:block hidden">
+        <div className="p-20 justify-center items-center bg-customBlue text-white sm:block hidden">
           <div className="flex justify-center items-center">
             <IoMdPaper className="text-9xl" />
           </div>

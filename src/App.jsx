@@ -4,7 +4,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import UserProfile from "./pages/userProfile/UserProfile";
 import Navbar from "./components/navbar/Navbar";
-
+import Explore from "./pages/explore/Explore";
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/userprofile" element={<UserProfile />} />
+        <Route path="/explore" element={<Explore />} />
       </Routes>
     </Router>
   );
